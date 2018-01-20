@@ -8,5 +8,5 @@ function updateObjectWithKeyAndValue(){
 function destructivelyUpdateObjectWithKeyAndValue(){
   delete recipes.Gungus
   recipes.prop = "1"
-  return recipes.prop2 = "2"
+  recipes.prop2 = "2"
 }
