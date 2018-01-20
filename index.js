@@ -1,4 +1,4 @@
-var recipes = {Gungus: "3 Heaping Spoons of Gungus Powder"}
+var recipes = {Gungus: "Three heaping spoonfuls of Gungus Powder-- That's it!"}
 
 function updateObjectWithKeyAndValue(){
   delete recipes.Gungus
