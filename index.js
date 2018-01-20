@@ -17,7 +17,6 @@ recipes = {prop: 1}
 recipes2 = Object.assign({}, recipes)
 delete recipes.prop
 return recipes
-  
 }
 
 function destructivelyDeleteFromObjectByKey(){
