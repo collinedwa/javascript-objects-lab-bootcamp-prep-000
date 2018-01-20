@@ -19,7 +19,7 @@ delete recipes2.prop
 return recipes2
 }
 
-function destructivelyDeleteFromObjectByKey(recipes, recipes2){
+function destructivelyDeleteFromObjectByKey(recipes){
 delete recipes.prop
 return recipes
 }
