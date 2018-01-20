@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(){
 
 function destructivelyUpdateObjectWithKeyAndValue(){
   delete recipes.Gungus
-  recipes.prop = 1
-  recipes.prop2 = 2
+  recipes.prop = "1"
+  recipes.prop2 = "2"
   return recipes
 }
