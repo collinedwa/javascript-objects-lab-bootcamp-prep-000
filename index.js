@@ -15,3 +15,7 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes){
 function deleteFromObjectByKey(){
   
 }
+
+function destructivelyDeleteFromObjectByKey(){
+  
+}
