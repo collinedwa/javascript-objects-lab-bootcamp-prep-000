@@ -1,10 +1,11 @@
-var recipes = {Gungus: "3 Heaping Spoons of Gungus Powder"}
+var recipes = {Gungus: "3 eaping Spoons of Gungus Powder-- That's it!"}
 
 function updateObjectWithKeyAndValue(){
   delete recipes.Gungus
-  recipes.prop = 1
-  recipes.prop2 = 2
-  return recipes
+  Object.assign({}, recipes, {prop: 1})
+  return Object.assign({}, recipes, {prop2: 2})
 }
 
-function destructivelyUpdateObjectWithKeyAndValue
+function destructivelyUpdateObjectWithKeyAndValue(){
+  delete recipes.Gungus
+}
