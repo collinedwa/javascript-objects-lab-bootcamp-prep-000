@@ -5,7 +5,9 @@ function updateObjectWithKeyAndValue(){
   return Object.assign({}, recipes, {prop: 1}, {prop2: 2})
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(){
+function destructivelyUpdateObjectWithKeyAndValue(recipes){
   delete recipes.Gungus
-
+  recipes.prop = 1
+  recipes.prop2 = 2
+  return recipes
 }
