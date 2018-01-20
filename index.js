@@ -7,4 +7,6 @@ function updateObjectWithKeyAndValue(){
   return recipes
 }
 
-function destructivelyUpdateObjectWithKeyAndValue
+function destructivelyUpdateObjectWithKeyAndValue(){
+  delete recipes.Gungus
+}
