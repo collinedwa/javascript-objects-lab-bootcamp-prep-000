@@ -7,4 +7,5 @@ function updateObjectWithKeyAndValue(){
 
 function destructivelyUpdateObjectWithKeyAndValue(){
   delete recipes.Gungus
+  recipes
 }
